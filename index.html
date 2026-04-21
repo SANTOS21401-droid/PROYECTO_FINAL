@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciudad Victoria, Tamaulipas - Sitio Turístico</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- ENCABEZADO Y MENÚ DE NAVEGACIÓN -->
+    <header>
+        <h1>Descubre Ciudad Victoria</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#informacion">Información</a></li>
+                <li><a href="#lugares">Lugares Turísticos</a></li>
+                <li><a href="#gastronomia">Gastronomía</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- SECCIÓN 1: INICIO -->
+        <section id="inicio" class="seccion">
+            <h2>Inicio</h2>
+            <p>Bienvenido a Ciudad Victoria, la capital del estado de Tamaulipas. Conocida como la "Ciudad de los Jardines" por su gran belleza natural y sus amplios espacios verdes, es un destino que combina historia, cultura y modernidad.</p>
+            <p>Ubicada en el norte del país, ofrece un clima agradable y una gente hospitalaria que hace que cada visita sea una experiencia única.</p>
+            <div class="imagenes-seccion">
+                <img src="img/victoria-inicio1.jpg" alt="Vista de Ciudad Victoria">
+                <img src="img/victoria-inicio2.jpg" alt="Plaza principal">
+            </div>
+        </section>
+
+        <!-- SECCIÓN 2: INFORMACIÓN -->
+        <section id="informacion" class="seccion">
+            <h2>Información del Lugar</h2>
+            <article>
+                <h3>Historia</h3>
+                <p>Fundada en 1750 con el nombre de Villa de Santa María de Aguayo, fue renombrada posteriormente en honor al primer presidente de México, Guadalupe Victoria. A lo largo de los años, se ha convertido en el centro político, administrativo y cultural de la región.</p>
+            </article>
+            <article>
+                <h3>Ubicación y Clima</h3>
+                <p>Se encuentra en la zona centro del estado, rodeada de sierras y valles fértiles. Cuenta con un clima semicálido y subhúmedo, con temperaturas agradables durante gran parte del año.</p>
+            </article>
+            <div class="imagenes-seccion">
+                <img src="img/victoria-info1.jpg" alt="Edificio histórico">
+                <img src="img/victoria-info2.jpg" alt="Naturaleza alrededor">
+            </div>
+        </section>
+
+        <!-- SECCIÓN 3: LUGARES TURÍSTICOS -->
+        <section id="lugares" class="seccion">
+            <h2>Lugares Turísticos</h2>
+            <article>
+                <h3>Parque Recreativo "El Laguito"</h3>
+                <p>Un espacio natural ideal para caminar, pasear en lancha o simplemente disfrutar de la naturaleza. Es uno de los pulmones verdes más importantes de la ciudad.</p>
+            </article>
+            <article>
+                <h3>Museo de Historia Natural de Tamaulipas</h3>
+                <p>Cuenta con exposiciones fascinantes sobre la fauna y flora de la región, incluyendo una gran colección de fósiles y animales disecados.</p>
+            </article>
+            <article>
+                <h3>Centro Histórico y Catedral</h3>
+                <p>La Catedral de Nuestra Señora de Guadalupe es el corazón religioso y arquitectónico de la ciudad, rodeada de edificios con encanto colonial.</p>
+            </article>
+            <article>
+                <h3>Sierra Madre Oriental</h3>
+                <p>Cerca de la ciudad se encuentran paisajes montañosos perfectos para el ecoturismo, el senderismo y la aventura.</p>
+            </article>
+            <div class="imagenes-seccion">
+                <img src="img/victoria-lugares1.jpg" alt="El Laguito">
+                <img src="img/victoria-lugares2.jpg" alt="Museo de Historia Natural">
+            </div>
+        </section>
+
+        <!-- SECCIÓN 4: GASTRONOMÍA -->
+        <section id="gastronomia" class="seccion">
+            <h2>Gastronomía y Cultura</h2>
+            <p>La comida de Ciudad Victoria es deliciosa y representa el sabor del norte de México. Destacan platillos como:</p>
+            <ul>
+                <li><strong>Carne asada:</strong> Preparada al carbón, acompañada de tortillas hechas a mano y salsa.</li>
+                <li><strong>Cabrito:</strong> Platillo tradicional de la región norteña, cocinado de distintas formas.</li>
+                <li><strong>Dulces de leche:</strong> Como los famosos jamoncillos y ate de membrillo.</li>
+                <li><strong>Discada:</strong> Una mezcla de carnes y verduras cocinadas en un disco de arado.</li>
+            </ul>
+            <div class="imagenes-seccion">
+                <img src="img/victoria-gastro1.jpg" alt="Comida típica">
+                <img src="img/victoria-gastro2.jpg" alt="Mercado local">
+            </div>
+        </section>
+
+        <!-- SECCIÓN 5: GALERÍA -->
+        <section id="galeria" class="seccion">
+            <h2>Galería</h2>
+            <div class="galeria-grid">
+                <img src="img/galeria1.jpg" alt="Calles de la ciudad">
+                <img src="img/galeria2.jpg" alt="Atardecer">
+                <img src="img/galeria3.jpg" alt="Monumentos">
+                <img src="img/galeria4.jpg" alt="Parques y jardines">
+            </div>
+        </section>
+
+        <!-- SECCIÓN 6: CONTACTO -->
+        <section id="contacto" class="seccion">
+            <h2>Contacto</h2>
+            <p>¿Te gustaría visitar Ciudad Victoria? Déjanos tus datos y te enviaremos más información.</p>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+                
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="imagenes-seccion">
+                <img src="img/contacto1.jpg" alt="Oficina de turismo">
+                <img src="img/contacto2.jpg" alt="Mapa">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Sitio Turístico de Ciudad Victoria, Tamaulipas</p>
+        <p>Proyecto Final HTML5 - Elaborado por: Delgado Arias Santos</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
